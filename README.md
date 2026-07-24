@@ -1,4 +1,4 @@
-# MonHun Nikki: Poka Poka Airu Mura G Translation Patch
+# MonHun Nikki: Poka Poka Airu Mura G PSP Translation Patch
 
 #### An English translation patch for the PSP version of Monster Hunter Diary: Poka Poka Ailu Mura G.
 
