@@ -60,5 +60,4 @@ Patcher/
 
 ## Credits
 
-Translation patch work by **mykaadev**.
 Built with `xdelta3` from the official xdelta releases.
