@@ -1,0 +1,3 @@
+Put your clean, unmodified PSP ISO in this folder.
+
+Keep only one .iso file here before running ApplyPatch.bat.
