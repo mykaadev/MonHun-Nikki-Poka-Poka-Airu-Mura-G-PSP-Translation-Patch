@@ -50,7 +50,7 @@ D6C23863D368F27FD83F6647B0E5BEE7339AFDEA868C1D1D9D14779D5505ADC6
 ## Folder Layout
 
 ```text
-MonHun-Nikki-Poka-Poka-Airu-Mura-G-Translation-Patch/
+Patcher/
   tools/
   patch/
   GameToPatch/
@@ -61,9 +61,4 @@ MonHun-Nikki-Poka-Poka-Airu-Mura-G-Translation-Patch/
 ## Credits
 
 Translation patch work by **mykaadev**.
-
 Built with `xdelta3` from the official xdelta releases.
-
-## Support
-
-If you run into missing text, broken strings, or layout issues, open an issue with a screenshot and where it happened.
