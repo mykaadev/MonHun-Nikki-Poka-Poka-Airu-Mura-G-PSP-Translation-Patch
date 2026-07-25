@@ -20,7 +20,7 @@ The patch only contains changed data. No game ISO, copyrighted disc image, or or
 - Simple folder layout for patching a clean ISO.
 - Windows helper script included.
 - SHA-256 validation before and after patching.
-- xdelta-based patch, small enough to publish and share.
+- xdelta-based patch
 
 ## Requirements
 
