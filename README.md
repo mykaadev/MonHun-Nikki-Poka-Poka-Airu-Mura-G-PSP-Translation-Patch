@@ -16,6 +16,10 @@ The patch only contains changed data. No game ISO, copyrighted disc image, or or
 
 ## What's New
 
+**v0.2.1 (hotfix):** screen titles (STATUS, PAMPHLET, ...) no longer have their letters squashed together.
+
+**v0.2:**
+
 - **Much more of the game is in English.** Many conversations are stored twice in the game data, and the previous patch only updated one copy, so lots of dialogue (often "filler" chatter) stayed Japanese. Both copies are translated now.
 - **Fixed the Informant's "Want me to explain?" prompts** (pier, field, mining site, bug-catching area, ranch). The Yes/No choices showed the Informant's own lines instead of real choices ([#1](https://github.com/mykaadev/MonHun-Nikki-Poka-Poka-Airu-Mura-G-PSP-Translation-Patch/issues/1)).
 - **New English font spacing.** The game's font spaced English letters like Japanese characters, so words had huge gaps and text ran out of its boxes. Letters now have proper widths, and screen titles are slightly condensed to fit.
@@ -70,7 +74,7 @@ You can also patch on a PC and copy the finished ISO to your phone.
 Expected patched ISO SHA-256:
 
 ```text
-094FF31F1D48566F3F766418B7D3BFF8E14F41AD16FE78E17D90FE6BF0228FD4
+4691306218E1B79C178BEE2123CBF1A1D2DB025D2FA7FBECD63E7DE1E8B46E1D
 ```
 
 ## FAQ
