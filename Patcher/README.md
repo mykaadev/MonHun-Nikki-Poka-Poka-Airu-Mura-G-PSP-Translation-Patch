@@ -1,36 +1,41 @@
-# MonHun Nikki: Poka Poka Airu Mura G Translation Patch
+# 🐱 Poka Poka Airu Mura G - English Patch
 
-## Folder Layout
+You need your own ISO of **MonHun Nikki - Poka Poka Ailu Mura G (Japan, Asia)** (ULJM05881).
 
-```text
-tools/
-patch/
-GameToPatch/
-Output/
-ApplyPatch.bat
+## 🪟 Windows
+
+1. Put your ISO in `GameToPatch/` (just one ISO in there).
+2. Double-click `ApplyPatch.bat`.
+3. Your English ISO appears in `Output/`.
+
+## 🤖 Android
+
+Use a patcher app that supports **xdelta** (for example UniPatcher):
+- source / ROM: your ISO
+- patch: `patch/PokaPoka_Ailu_Mura_G_EN_test.xdelta`
+
+Then open the new ISO in PPSSPP.
+
+## 🍎 Mac / 🐧 Linux
+
+Install `xdelta3` (`brew install xdelta` or `sudo apt install xdelta3`), then from this folder:
+
+```bash
+xdelta3 -d -s "/path/to/your game.iso" patch/PokaPoka_Ailu_Mura_G_EN_test.xdelta PokaPoka_EN.iso
 ```
 
-## How To Use
+## 💡 Good to know
 
-1. Put your clean, unmodified `.iso` inside `GameToPatch/`.
-2. Run `ApplyPatch.bat`.
-3. The translated ISO will be created in `Output/`.
+- Don't load **save states** from an older version (they bring back old text). Load your normal in-game save instead.
+- If the patcher says your ISO doesn't match, it's a different or modified copy (e.g. trimmed or `.cso`).
+- Bugs, questions, updates: https://github.com/mykaadev/MonHun-Nikki-Poka-Poka-Airu-Mura-G-PSP-Translation-Patch
 
-Keep only one `.iso` inside `GameToPatch/`.
+## 🔒 Checksums (SHA-256)
 
-## Techie stuff
-### Expected Clean ISO
-
-`MonHun Nikki - Poka Poka Ailu Mura G (Japan, Asia).iso`
-
-SHA-256:
+Original ISO:
 
 `3C6A83F437D74B836E9425C08B2AD2ACB18BEE1BB1B88819B7436A3F1B53F28F`
 
-### Expected Output
-
-`Output/PokaPoka_Ailu_Mura_G_EN_patched.iso`
-
-SHA-256:
+English ISO:
 
 `4691306218E1B79C178BEE2123CBF1A1D2DB025D2FA7FBECD63E7DE1E8B46E1D`
