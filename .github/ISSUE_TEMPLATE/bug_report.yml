@@ -1,0 +1,46 @@
+name: Translation / text bug
+description: Untranslated text, text overflowing a box, wrong choices, typos, or a crash
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Please don't post links to ISOs or game files.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      description: What did you see, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where did it happen?
+      description: Screen/menu, character you were talking to, what you were doing.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop an image here. Full screen is best (don't crop the text box).
+  - type: input
+    id: version
+    attributes:
+      label: Patch version
+      placeholder: e.g. v0.2 (from the Releases page or the date you downloaded it)
+  - type: input
+    id: device
+    attributes:
+      label: Emulator / device
+      placeholder: e.g. PPSSPP 1.20 on Windows, PPSSPP on Android, PSP 3000
+  - type: dropdown
+    id: savestate
+    attributes:
+      label: Did you load a save state from an older patch version?
+      description: Save states keep old text in memory. If yes, please try booting normally first.
+      options:
+        - "No"
+        - "Yes"
+        - "Not sure"
