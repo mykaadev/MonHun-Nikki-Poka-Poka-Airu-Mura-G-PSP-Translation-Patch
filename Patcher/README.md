@@ -12,7 +12,7 @@ You need your own ISO of **MonHun Nikki - Poka Poka Ailu Mura G (Japan, Asia)** 
 
 Use a patcher app that supports **xdelta** (for example UniPatcher):
 - source / ROM: your ISO
-- patch: `patch/PokaPoka_Ailu_Mura_G_EN_test.xdelta`
+- patch: `patch/PokaPoka_Ailu_Mura_G_EN.xdelta`
 
 Then open the new ISO in PPSSPP.
 
@@ -21,7 +21,7 @@ Then open the new ISO in PPSSPP.
 Install `xdelta3` (`brew install xdelta` or `sudo apt install xdelta3`), then from this folder:
 
 ```bash
-xdelta3 -d -s "/path/to/your game.iso" patch/PokaPoka_Ailu_Mura_G_EN_test.xdelta PokaPoka_EN.iso
+xdelta3 -d -s "/path/to/your game.iso" patch/PokaPoka_Ailu_Mura_G_EN.xdelta PokaPoka_EN.iso
 ```
 
 ## 💡 Good to know

@@ -8,7 +8,7 @@ set "GAME_DIR=%ROOT%GameToPatch"
 set "OUTPUT_DIR=%ROOT%Output"
 
 set "XDELTA_EXE=tools\xdelta3-3.2.0-windows-x86_64\xdelta3.exe"
-set "PATCH=patch\PokaPoka_Ailu_Mura_G_EN_test.xdelta"
+set "PATCH=patch\PokaPoka_Ailu_Mura_G_EN.xdelta"
 set "OUTPUT=Output\PokaPoka_Ailu_Mura_G_EN_patched.iso"
 
 set "EXPECTED_CLEAN=3C6A83F437D74B836E9425C08B2AD2ACB18BEE1BB1B88819B7436A3F1B53F28F"

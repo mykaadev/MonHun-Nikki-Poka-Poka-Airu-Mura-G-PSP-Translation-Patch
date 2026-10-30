@@ -57,7 +57,7 @@ This patch turns your own copy of the game into an English version. It's a small
 
 ## 🛠️ Patching
 
-Inside the zip you'll find a `Patcher` folder. The patch itself is `Patcher/patch/PokaPoka_Ailu_Mura_G_EN_test.xdelta`.
+Inside the zip you'll find a `Patcher` folder. The patch itself is `Patcher/patch/PokaPoka_Ailu_Mura_G_EN.xdelta`.
 
 ### 🪟 Windows
 
@@ -72,7 +72,7 @@ That's it. The script checks your ISO first and tells you if it's the wrong one.
 1. Install a patcher app that supports **xdelta** files (for example **UniPatcher**).
 2. In the app, pick:
    - **ROM / source file:** your game ISO
-   - **Patch file:** `PokaPoka_Ailu_Mura_G_EN_test.xdelta`
+   - **Patch file:** `PokaPoka_Ailu_Mura_G_EN.xdelta`
 3. Tap **Apply** and wait (the ISO is about 640 MB, so it can take a minute).
 4. Open the new ISO in PPSSPP.
 
@@ -87,7 +87,7 @@ That's it. The script checks your ISO first and tells you if it's the wrong one.
 2. Open a terminal in the `Patcher/patch` folder and run:
 
 ```bash
-xdelta3 -d -s "/path/to/your game.iso" PokaPoka_Ailu_Mura_G_EN_test.xdelta PokaPoka_EN.iso
+xdelta3 -d -s "/path/to/your game.iso" PokaPoka_Ailu_Mura_G_EN.xdelta PokaPoka_EN.iso
 ```
 
 3. Play `PokaPoka_EN.iso`.

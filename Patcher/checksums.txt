@@ -11,7 +11,7 @@ Patch file SHA-256:
 AE0810483EB95C8820E8B701AD6B56FC9B9671DC44D1621684FB6ED14B97B621
 
 Patch file:
-PokaPoka_Ailu_Mura_G_EN_test.xdelta
+PokaPoka_Ailu_Mura_G_EN.xdelta
 
 xdelta3 source:
 https://github.com/jmacd/xdelta/releases/tag/v3.2.0
